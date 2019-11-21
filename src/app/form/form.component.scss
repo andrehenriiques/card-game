@@ -1,0 +1,56 @@
+.container{
+    width: 900px;
+    height: 950px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.header{
+    text-align: center;
+    font: Bold 35px/46px Montserrat;
+    letter-spacing: -0.88px;
+    color: #63C7A9;
+    opacity: 1;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+p{
+    text-align: left;
+    font: Regular 20px/21px Open Sans;
+    letter-spacing: 0;
+    color: #363636;
+    opacity: 1;
+    padding-top: 30px;
+}
+
+input{
+    border: 1px solid #363636;
+    opacity: 1;
+    padding: 10px;
+    margin: 20px;
+}
+
+.textarea{
+    height: 200px !important;
+}
+
+button{
+    background: #63C7A9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10px 40px 10px 40px;
+    border-color: gray;
+}
+
+.ng-invalid.ng-touched:not(form){
+    border: 1.5px solid red;
+}
+
+.ng-valid.ng-touched:not(form){
+    border: 1.5px solid green
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}

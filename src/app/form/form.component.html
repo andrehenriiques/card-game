@@ -1,0 +1,31 @@
+<div class="container">
+    <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+        <div class="row form-group">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h1 class="header">Formulário</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" formControlName="nome" placeholder="Nome">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" formControlName="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                            <input type="text" formControlName="mensagem" class="textarea" size="50" placeholder="Mensagem">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button [disabled]="formulario.invalid" type="submit" class="btn btn-primary">ENVIAR</button>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </form>
+</div>

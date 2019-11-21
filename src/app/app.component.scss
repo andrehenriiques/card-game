@@ -1,0 +1,22 @@
+.container{
+    position: absolute;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.botaoinicio{
+    position: relative;
+    left: 900px;
+    bottom: 300px;
+    font-size: 90px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: initial;
+    background: #ffffff;
+    color: black;
+    padding: 0 50px 0 50px;
+    border-radius: 80%;
+    border: solid 2px black;
+}

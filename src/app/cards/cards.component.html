@@ -1,0 +1,14 @@
+<div class="background">
+    <div class="row">
+        <div class="col-md-2">
+            <a class="left" href="#">&lt;</a>
+        </div>
+        <div class="col-md-2 one" *ngFor="let item of cards" >
+            <img [src]="item.img">
+            {{ item.legenda }}
+        </div>
+        <div class="col-md-2">
+            <a class="right" href="#">&gt;</a>   
+        </div>
+    </div>
+</div>

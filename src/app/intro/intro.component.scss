@@ -1,0 +1,61 @@
+.background{
+    height: 100%;
+    background: transparent url('../../assets/Imagem\ 2.png') 0% 0% padding-box;
+    opacity: 0.85;
+    position: relative;
+    min-width: 1080px;
+}
+.row{
+    margin-top: auto;
+}
+
+.card1{
+    width: 586px;
+    min-width: 586px;
+    position: relative;
+    background: transparent url('../../assets/Imagem\ card.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: -10px;
+}
+
+.transistor{
+    font: Bold 15px/18px Open Sans;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.card2{
+    width: auto;
+    height: 754px;
+    background: transparent url('../../assets/Imagem\ card.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000099;
+    border-radius: 196px;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.text-card{
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #F0F0F2;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.penas{
+    top: 485px;
+    left: 624px;
+    width: 130px;
+    height: 119px;
+    transform: matrix(0.96, 0.28, -0.28, 0.96, 0, 0);
+    box-shadow: 0px 3px 6px #000000A1;
+    border-radius: 34px;
+    opacity: 1;
+    background: transparent url('../../assets/Sem\ Título-3.png') 0% 0% no-repeat padding-box;
+    position: absolute;
+}
